@@ -63,7 +63,6 @@ sample_data = [
 'data/dataverses/ensihoidon--kivunhoidon-ja-anestesian-vastuualue/ensihoidon--kivunhoidon-ja-anestesian-vastuualue.json',
 'data/dataverses/elektroniikka-ja-tietoliikennetekniikka/elektroniikka-ja-tietoliikennetekniikka.json',
 'data/dataverses/elektroniikan-ja-tietoliikennetekniikan-laitos/elektroniikan-ja-tietoliikennetekniikan-laitos.json',
-'data/dataverses/doctoral-programme-in-dynamic-wearable-applications-with-privacy-constraints/doctoral-programme-in-dynamic-wearable-applications-with-privacy-constraints.json',
 'data/dataverses/biotieteet/biotieteet.json',
 'data/dataverses/biomeditech/biomeditech.json',
 'data/dataverses/biolaaketieteen-tekniikka/biolaaketieteen-tekniikka.json',
