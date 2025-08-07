@@ -62,7 +62,14 @@ for path in paths:
         dataverse = parent
         resp = api.create_dataset(dataverse, json.dumps(metadata))
         print(resp)
-        dataset_pid = resp.json()['data']['persistentId']
+        resp_json = resp.json()
+        if 'data' in resp_json and 'persistentId' in resp_json['data']:
+            dataset_pid = resp_json['data']['persistentId']
+        else:
+            print("Failed to create dataset:")
+            print(resp.status_code)
+            print(resp_json)
+            exit(1)
         dataset_dbid = resp.json()['data']['id']
         files_dir = path.replace(json_file, '') + 'files'
         filemetadata_dir = path.replace(json_file, '') + '.filemetadata'
