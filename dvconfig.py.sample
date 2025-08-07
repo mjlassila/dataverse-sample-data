@@ -56,7 +56,6 @@ sample_data = [
 'data/dataverses/hyvinvointitieteet/hyvinvointitieteet.json',
 'data/dataverses/historia-filosofia-ja-kirjallisuustiede/historia-filosofia-ja-kirjallisuustiede.json',
 'data/dataverses/hameenlinnan-yksikko/hameenlinnan-yksikko.json',
-'data/dataverses/hallintotieteiden-kauppatieteiden-ja-politiikan-tutkimuksen-tohtoriohjelma /hallintotieteiden-kauppatieteiden-ja-politiikan-tutkimuksen-tohtoriohjelma .json',
 'data/dataverses/hallintotieteet/hallintotieteet.json',
 'data/dataverses/fysiikka/fysiikka.json',
 'data/dataverses/fysiikan-laitos/fysiikan-laitos.json',
